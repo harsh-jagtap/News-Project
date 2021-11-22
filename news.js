@@ -20,7 +20,7 @@ xhr.onload = function() {
         let newsHtml = "";
         // console.log(articles);
 
-        articles.forEach(function(element, index) {
+        articles.forEach(function(element) {
             // console.log(element, index)
             let news = `<div class="newsCard">
                             <img src="${element.urlToImage}" alt="Not found" class="newsImg">
